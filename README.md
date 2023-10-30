@@ -43,3 +43,12 @@ file(fileId, filename, boardId)
 <br>
 comment(commentid, content, UserId, boardId) 
 <br>
+--------------------------------------
+# Layout view 설계
+글 목록 <br>
+글 상세조회 <br>
+회원 가입 <br>
+로그인 <br>
+내 정보 <br>
+회원 탈퇴 <br>
+회원 정보 수정<br>
