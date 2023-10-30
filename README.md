@@ -1,6 +1,6 @@
 # photoBoard
 
-<h1>구현 예정 기능</h1>
+<h1>구현 예정 기능 설계</h1>
 
 |분류|기능|구현여부|
 |------|---|---|
@@ -32,3 +32,10 @@
 |댓글|댓글 작성||
 |댓글|댓글 수정||
 |댓글|댓글 삭제||
+
+--------------------------------------
+# 데이터 베이스 설계 
+## User(UserId, id, password, nickname,date)
+## board(boardId, title, content, like, view, date, UserId)
+## file(fileId, filename, boardId)
+## comment(commentid, content, UserId, boardId) 
