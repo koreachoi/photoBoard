@@ -36,6 +36,10 @@
 --------------------------------------
 # 데이터 베이스 설계 
 User(UserId, id, password, nickname,date)
+<br>
 board(boardId, title, content, like, view, date, UserId)
+<br>
 file(fileId, filename, boardId)
+<br>
 comment(commentid, content, UserId, boardId) 
+<br>
