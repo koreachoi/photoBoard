@@ -35,7 +35,7 @@
 
 --------------------------------------
 # 데이터 베이스 설계 
-## User(UserId, id, password, nickname,date)
-## board(boardId, title, content, like, view, date, UserId)
-## file(fileId, filename, boardId)
-## comment(commentid, content, UserId, boardId) 
+User(UserId, id, password, nickname,date)
+board(boardId, title, content, like, view, date, UserId)
+file(fileId, filename, boardId)
+comment(commentid, content, UserId, boardId) 
